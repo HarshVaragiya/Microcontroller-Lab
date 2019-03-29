@@ -1,0 +1,10 @@
+MOV R7,#00001110B
+MOV A,R7
+CLR C
+RLC A
+XRL A,R7
+CLR C
+RRC A
+
+
+// Output is in A
